@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZAS - CERTUS</title>
+    
+    <style>
+        body {
+            font-family: Arial,sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: #cf3322;
+            color: rgb(255, 238, 7);
+            text-align: center;
+            padding: 20px 0;
+        }
+        h1{
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a{
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        nav a.hover{
+            color: yellow;
+        }
+        .Pizza-item{
+            background-color: white;
+            padding: 20px;
+            margin: 0 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 250px;
+            text-align: center;
+        }
+        .Pizza-item img{
+            width: 100%;
+            border-radius: 8px;
+        }
+        .Pizza-item h3{
+            margin: 10px 0;
+        }
+        .Pizza-item p{
+            color: #7f8c8d;
+        }
+        footer{
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+        section{
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PIZZAS - CERTUS</h1>
+        <hr>
+    
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Menú</a>
+        <a href="#">Contacto</a>
+    </nav>
+    </header>
+
+    <section class="Menú">
+        <div class="Pizza-item">
+            <img src="../Clase2/picture/1.jpg" alt="Pizza Hawainana">
+        
+        <h3>Pizza Hawaiana</h3>
+        <p>Tomate, Mozzarella, Jamon y Piña</p>
+        <p><strong>Precio $8.90</strong></p>
+        </div>
+
+        <div class="Pizza-item">
+            <img src="../Clase2/picture/2.jpg" alt="Pizza con Pepperoni">
+        
+        <h3>Pizza Hawaiana</h3>
+        <p>Tomate, Mozzarella y Pepperoni</p>
+        <p><strong>Precio $7.90</strong></p>
+        </div>
+
+        <div class="Pizza-item">
+            <img src="../Clase2/picture/3.jpg" alt="Pizza Vegetariana">
+        
+        <h3>Pizza Hawaiana</h3>
+        <p>Tomate, Mozzarella y Vegetales frescos</p>
+        <p><strong>Precio $10.00</strong></p>
+        </div>
+
+
+    </section>
+
+         <footer>
+            <p>&copy; 2025 Pizzas - Certus | Todos los derechos estan reservados </p>
+         </footer>
+
+</body>
+</html>
